@@ -1,0 +1,55 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+bin/
+obj/
+**/bin/
+**/obj/
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# NuGet
+*.nupkg
+packages/
+.nuget/
+
+# Publish outputs
+publish/
+*.Publish.xml
+
+# Logs, test results and databases
+*.log
+TestResults/
+*.mdf
+*.ldf
+
+# OS generated files
+Thumbs.db
+Desktop.ini
+.DS_Store
+ehthumbs.db
+
+# User secrets and environment files (do not commit secrets)
+appsettings.Development.json
+secrets.json
+.env
+
+# ReSharper
+_ReSharper*/
+*._ReSharper*
+*.DotSettings.user
+
+# Other
+*.vsix
+
+# Ignore Rider workspace files
+*.sln.iml
